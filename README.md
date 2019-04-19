@@ -1,6 +1,6 @@
 # ml
 MLModels.py provides implementation of different ML algortihms using scikit learn and compares their perfromance.
-k-fold demo.py demonstrates 10-fold usage in machine learning
+k-fold demo.py demonstrates 10-fold usage in machine learning.
 These codes were developed as part of machine learning training conducted by the developer.
 
 This code is written by Dr Syed Afaq Ali Shah to demonstrate the performance of different machine learning techniques
