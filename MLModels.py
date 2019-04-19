@@ -31,10 +31,10 @@ from sklearn.metrics import classification_report,confusion_matrix
 import numpy as np
 
 
-iris = datasets.load_digits() # Digits Dataset
-dt = iris.data
-X = iris['data']
-y = iris['target']
+digit = datasets.load_digits() # Digits Dataset
+dt = digit.data
+X = digit['data']
+y = digit['target']
 X_train, X_test, y_train, y_test = train_test_split( X, y, test_size=0.2, random_state = 0) 
 
 #Linear Regression
